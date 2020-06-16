@@ -1,0 +1,216 @@
+{
+  "user": {
+    "userId": 38,
+    "name": "Janet Smith",
+    "email": "g_nissa@hotmail.com",
+    "userLevel": "Admin",
+    "currentCustomerName": "LGI HOMES, INC",
+    "currentCustomerNumber": "598878",
+    "settingPages": [
+      {
+        "settingPageUserId": 1,
+        "settingPageId": 1,
+        "settingUserId": 1,
+        "enabled": true,
+        "settingPageName": "Manage Users"
+      },
+      {
+        "settingPageUserId": 4,
+        "settingPageId": 2,
+        "settingUserId": 1,
+        "enabled": true,
+        "settingPageName": "My Profile"
+      },
+      {
+        "settingPageUserId": 7,
+        "settingPageId": 3,
+        "settingUserId": 1,
+        "enabled": true,
+        "settingPageName": "Register Account"
+      },
+      {
+        "settingPageUserId": 10,
+        "settingPageId": 4,
+        "settingUserId": 1,
+        "enabled": true,
+        "settingPageName": "Customer Details"
+      },
+      {
+        "settingPageUserId": 13,
+        "settingPageId": 5,
+        "settingUserId": 1,
+        "enabled": true,
+        "settingPageName": "Authorized Signers"
+      }
+    ],
+    "routes": [
+      {
+        "routeId": 1000,
+        "name": "Jobs",
+        "functionId": 2,
+        "children": [
+          {
+            "routeId": 1100,
+            "parentRouteId": 1000,
+            "name": "Job Details",
+            "functionId": 2,
+            "children": []
+          }
+        ]
+      },
+      {
+        "routeId": 2000,
+        "name": "Invoices & Statements",
+        "functionId": 3,
+        "children": [
+          {
+            "routeId": 2100,
+            "parentRouteId": 2000,
+            "name": "Invoices",
+            "functionId": 3,
+            "children": []
+          },
+          {
+            "routeId": 2200,
+            "parentRouteId": 2000,
+            "name": "Payments",
+            "functionId": 5,
+            "children": [
+              {
+                "routeId": 2300,
+                "parentRouteId": 2200,
+                "name": "Receipt",
+                "functionId": 5,
+                "children": []
+              },
+              {
+                "routeId": 2400,
+                "parentRouteId": 2200,
+                "name": "Checkout",
+                "functionId": 5,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "customers": [
+      {
+        "customerName": "DOUG POFF",
+        "customerNumber": "476681",
+        "customerId": 3
+      },
+      {
+        "customerName": "GENESIS ENGINEERING AND CONST",
+        "customerNumber": "572063",
+        "customerId": 22
+      },
+      {
+        "customerName": "FIRST STAR HOMES INC",
+        "customerNumber": "476960",
+        "customerId": 24
+      },
+      {
+        "customerName": "DOUBLE ROCK HOMES",
+        "customerNumber": "359452",
+        "customerId": 33
+      },
+      {
+        "customerName": "JOHN HOUSTON",
+        "customerNumber": "120968",
+        "customerId": 35
+      },
+      {
+        "customerName": "NEELY DESIGN ASSOCIATES LLC",
+        "customerNumber": "572876",
+        "customerId": 151
+      },
+      {
+        "customerName": "RYAN BASS CONSTRUCTION*",
+        "customerNumber": "579237",
+        "customerId": 153
+      },
+      {
+        "customerName": "CARRILLO DEVELOPMENT LLC",
+        "customerNumber": "430080",
+        "customerId": 188
+      },
+      {
+        "customerName": "HAVENWOOD TWO LLC",
+        "customerNumber": "646343",
+        "customerId": 189
+      },
+      {
+        "customerName": "CADENCE HOMES LLC",
+        "customerNumber": "476933",
+        "customerId": 192
+      },
+      {
+        "customerName": "PATTERSON DENISE",
+        "customerNumber": "476783",
+        "customerId": 193
+      },
+      {
+        "customerName": "MCALISTER CONSTRUCTION LLC",
+        "customerNumber": "477235",
+        "customerId": 194
+      },
+      {
+        "customerName": "VESTA HOMES",
+        "customerNumber": "477014",
+        "customerId": 196
+      },
+      {
+        "customerName": "FREEDOM HOMES OKLAHOMA LLC",
+        "customerNumber": "449422",
+        "customerId": 208
+      },
+      {
+        "customerName": "LGI HOMES, INC",
+        "customerNumber": "598878",
+        "customerId": 210
+      },
+      {
+        "customerName": "AVH CAROLINAS LLC",
+        "customerNumber": "332452",
+        "customerId": 214
+      },
+      {
+        "customerName": "HARCREST HOMES LLC",
+        "customerNumber": "396795",
+        "customerId": 217
+      },
+      {
+        "customerName": "ESPERANZA HOMES INC",
+        "customerNumber": "463445",
+        "customerId": 219
+      },
+      {
+        "customerName": "BAR ETT INVESTMENT",
+        "customerNumber": "533513",
+        "customerId": 221
+      },
+      {
+        "customerName": "WATERMARK PROPERTIES LLC",
+        "customerNumber": "649567",
+        "customerId": 222
+      },
+      {
+        "customerName": "JSJ BUILDERS,INC. (MASTER)",
+        "customerNumber": "149961",
+        "customerId": 223
+      },
+      {
+        "customerName": "COPELAND CONSTRUCTION",
+        "customerNumber": "476508",
+        "customerId": 228
+      },
+      {
+        "customerName": "TOLLBERG HOMES LLC*",
+        "customerNumber": "534448",
+        "customerId": 229
+      }
+    ]
+  }
+  }
